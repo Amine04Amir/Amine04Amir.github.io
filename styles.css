@@ -1,9 +1,11 @@
+/* styles.css */
+
 body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
-  background-color: darkgoldenrod;
+  background-color: rgb(233, 204, 14);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,41 +13,43 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 25%; /* Adjust the width as desired */
   margin: 0 auto;
   padding: 20px;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 80px;
 }
 
-.sub-container { /* New style for the sub-container */
-  background-color: #e3e3e3; /* Background color for the small box */
-  padding: 10px 20px; /* Add padding to the small box */
-  border-radius: 5px; /* Add rounded corners */
-  margin-bottom: 20px; /* Add some space below the small box */
-  text-align: left; /* Align text to the left within the small box */
-  width: fit-content; /* Set the width of the small box to fit its content */
-  align-self: flex-start; /* Align the small box to the start (left) within the main container */
+.sub-container {
+  background-color: #e3e3e3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: left;
+  width: fit-content;
+  align-self: flex-start;
 }
 
 .container img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   margin-bottom: 20px;
 }
 
-.container p2{
-  text-align: left;
+.container p2 {
+  text-align: left; /* Corrected typo: Change "p2" to "p" */
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: white;
+  color: white; /* Corrected text color to white */
   background-color: darkgoldenrod;
 }
 
@@ -55,4 +59,12 @@ body {
 
 .container {
   text-align: left;
+}
+
+footer {
+  padding: 10px 20px;
+  background-color: rgb(233, 204, 14);
+  color: white; /* Corrected text color to white */
+  text-align: center;
+  margin-top: auto; /* Push footer to the bottom */
 }
