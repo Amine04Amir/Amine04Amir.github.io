@@ -11,28 +11,72 @@ body {
   background-repeat: no-repeat;
   text-align: center;
 }
-
+#learn
+{
+ width:  80px;
+ text-align: center;
+ height:10px;
+ margin-top: 19px;
+ font-size: 16px;
+ font-family: Arial, Helvetica, sans-serif;
+}
 .container {
-  max-width: 25%; /* Adjust the width as desired */
+  width: 375px; /* Adjust the width as desired */
   margin: 0 auto;
   padding: 20px;
   background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #0a0a0a;
+  border-radius: 5%;
+  box-shadow: 10px 10px 1px 1px rgb(0, 0, 0);
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 90px;
 }
-
+#span{
+  color: rgb(165, 162, 162);
+}
+.as {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes the image round */
+  float: left; /* Floats the image to the left */
+  margin-right: 2px; /* Adjust the spacing between the image and text */
+}
+article
+{
+  display: flex;
+  flex-direction:row;
+}
+.pot
+{
+    position: relative;
+    top: 11px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.img
+{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 5%;
+  border-color: #000;
+}
+footer{
+  display: flex;
+  justify-content: end;
+}
 .sub-container {
-  background-color: #e3e3e3;
-  padding: 10px 20px;
+  background-color: #f5b041;
+  padding: px;
   border-radius: 5px;
   margin-bottom: 20px;
   text-align: left;
-  width: fit-content;
   align-self: flex-start;
 }
 
