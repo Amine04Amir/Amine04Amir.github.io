@@ -21,7 +21,7 @@ body {
  font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-  width: 375px; /* Adjust the width as desired */
+  width: 375px;
   margin: 0 auto;
   padding: 20px;
   background-color: #f9f9f9;
@@ -38,11 +38,11 @@ body {
   color: rgb(165, 162, 162);
 }
 .as {
-  width: 50px; /* Adjust the size as needed */
-  height: 50px; /* Adjust the size as needed */
-  border-radius: 50%; /* Makes the image round */
-  float: left; /* Floats the image to the left */
-  margin-right: 2px; /* Adjust the spacing between the image and text */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 2px;
 }
 article
 {
@@ -87,13 +87,13 @@ footer{
 }
 
 .container p2 {
-  text-align: left; /* Corrected typo: Change "p2" to "p" */
+  text-align: left;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: white; /* Corrected text color to white */
+  color: white;
   background-color: darkgoldenrod;
 }
 
@@ -108,7 +108,7 @@ footer{
 footer {
   padding: 10px 20px;
   background-color: rgb(233, 204, 14);
-  color: white; /* Corrected text color to white */
+  color: white;
   text-align: center;
-  margin-top: auto; /* Push footer to the bottom */
+  margin-top: auto;
 }
