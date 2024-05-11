@@ -16,6 +16,8 @@ body {
  width:  80px;
  text-align: center;
  height:10px;
+ display: flex;
+ align-items: center;
  margin-top: 19px;
  font-size: 16px;
  font-family: Arial, Helvetica, sans-serif;
@@ -51,16 +53,20 @@ article
 }
 .pot
 {
-    position: relative;
-    top: 11px;
-    margin-left: 5px;
-    font-weight: bold;
+  position: relative;
+  top: 11px;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .img
 {
   width: fit-content;
   height: fit-content;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   border: 1px solid #fff;
@@ -73,7 +79,7 @@ footer{
 }
 .sub-container {
   background-color: #f5b041;
-  padding: px;
+  padding: 1px 2px 0 20px;
   border-radius: 5px;
   margin-bottom: 20px;
   text-align: left;
